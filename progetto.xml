@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--dichiarazione DTD-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+    	<!--INTESTAZIONE-->
+        <fileDesc>
+            <titleStmt>
+            	<!--CODIFICA DEL TITOLO DELL'EDIZIONE DIGITALE-->
+                <title>Morfologia I, pagine 12-13 - Edizione digitale</title>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt xml:id="APPARTENENZA">
+                    <resp>Ente di Appartenenza</resp>
+                    <name>Biblioteca di Ginevra</name>
+                </respStmt>
+                <!--TRADUZIONE DI-->
+                <respStmt xml:id="TRADUZIONE">
+                    <resp>Traduzione di</resp>
+                    <name>Emanuele Fadda</name>
+                </respStmt>
+                <!--CODIFICA A CURA DI-->
+                <respStmt xml:id="CODIFICA">
+                    <resp>Codifica a cura di</resp>
+                    <name n="1">Alessio Siragusa</name>
+                    <name n="2">Jacopo Gneri</name>
+                </respStmt>
+            </titleStmt>
+            <!--EDIZIONE-->
+            <editionStmt>
+                <edition>Edizione digitale
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+            	<!--SEZIONE DI CODIFICA DEI DATI DI DIFFUSIONE E DISTRIBUZIONE DELL'EDIZIONE-->
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+            	<!--DESCRIZIONE DELLA FONTE PRIMARIA-->
+                <bibl>
+                    <title>Morfologia I, pagine 12-13</title>
+                    <author>Ferdinand de Saussure</author>
+                    <publisher>Bibliothèque de Genève</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace>Ginevra</pubPlace>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Svizzera</country>
+                        <settlement>Ginevra</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Biblioteca di Ginevra</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>Ms. fr. 3951/7</idno>
+                    </msIdentifier>
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Lezioni, destinato a studenti.Testo preparatorio per almeno tre lezioni</summary>
+                        <textLang>Francese di inizio 1800</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Pagine di appunti</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                </support>
+                                    <!-- DIMENSIONE -->
+                                    <extent>
+                                    <measure type="folio">2</measure>
+                                    <!--dimensioni del manoscritto-->
+                                    <dimensions unit="cm">
+                                        <height>21</height>
+                                        <width>13,4</width>                                 
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <p>Numerazione decimale aggiunta in un secondo momento presente negli angoli superiori e all'esterno della pagina.</p>
+                                </foliation>
+                                <condition>
+                                    <p>Fogli in buone condizioni fisiche</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <handNote xml:id="FDS">Ferdinand De Saussure ha scritto il corpo principale del testo.</handNote>
+                            <handNote>Una seconda mano ha aggiunto la numerazione delle pagine.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p>Scritto a <origPlace>Ginevra</origPlace>nel<origDate>1893-1895</origDate></p>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+	<facsimile>
+		<surface>
+			<!--immagine con entrambi i fogli-->
+			<graphic url='ms_fr_12_13.jpg' width='6048px' height='4032px' />
+			<!--25 righe pagina 12-->
+			<zone ulx="1197" uly="324" lrx="3059" lry="508" xml:id="line_1" start="lb_line_1"/>
+			<zone ulx="1219" uly="476" lrx="2927" lry="662" xml:id="line_2" start="lb_line_2"/>
+			<zone ulx="1273" uly="582" lrx="2965" lry="762" xml:id="line_3" start="lb_line_3"/>
+			<zone ulx="1239" uly="708" lrx="2929" lry="932" xml:id="line_4" start="lb_line_4"/>
+			<zone ulx="1327" uly="812" lrx="2977" lry="994" xml:id="line_5" start="lb_line_5"/>
+			<zone ulx="1309" uly="946" lrx="3037" lry="1138" xml:id="line_6" start="lb_line_6"/>
+			<zone ulx="1331" uly="1094" lrx="3041" lry="1288" xml:id="line_7" start="lb_line_7"/>
+			<zone ulx="1301" uly="1204" lrx="3025" lry="1420" xml:id="line_8" start="lb_line_8"/>
+			<zone ulx="1331" uly="1344" lrx="3037" lry="1508" xml:id="line_9" start="lb_line_9"/>
+			<zone ulx="849" uly="1470" lrx="2921" lry="1700" xml:id="line_10" start="lb_line_10"/>
+			<zone ulx="1339" uly="1616" lrx="1877" lry="1766" xml:id="line_11" start="lb_line_11"/>
+			<zone ulx="1519" uly="1704" lrx="2983" lry="1914" xml:id="line_12" start="lb_line_12"/>
+			<zone ulx="1631" uly="1866" lrx="2429" lry="2064" xml:id="line_13" start="lb_line_13"/>
+			<zone ulx="1383" uly="1994" lrx="2987" lry="2194" xml:id="line_14" start="lb_line_14"/>
+			<zone ulx="1407" uly="2122" lrx="2949" lry="2348" xml:id="line_15" start="lb_line_15"/>
+			<zone ulx="1419" uly="2254" lrx="2693" lry="2464" xml:id="line_16" start="lb_line_16"/>
+			<zone ulx="1527" uly="2400" lrx="2963" lry="2592" xml:id="line_17" start="lb_line_17"/>
+			<zone ulx="1389" uly="2544" lrx="2991" lry="2760" xml:id="line_18" start="lb_line_18"/>
+			<zone ulx="1415" uly="2668" lrx="2995" lry="2828" xml:id="line_19" start="lb_line_19"/>
+			<zone ulx="1399" uly="2784" lrx="2969" lry="3016" xml:id="line_20" start="lb_line_20"/>
+			<zone ulx="1453" uly="2928" lrx="2997" lry="3108" xml:id="line_21" start="lb_line_21"/>
+			<zone ulx="1385" uly="3102" lrx="1881" lry="3248" xml:id="line_22" start="lb_line_22"/>
+			<zone ulx="1627" uly="3220" lrx="2803" lry="3438" xml:id="line_23" start="lb_line_23"/>
+			<zone ulx="1787" uly="3388" lrx="2729" lry="3560" xml:id="line_24" start="lb_line_24"/>
+			<zone ulx="1521" uly="3508" lrx="2975" lry="3718" xml:id="line_25" start="lb_line_25"/>
+			<!--numerazione 12 in alto a sinistra-->
+			<zone ulx="877" uly="278" lrx="1021" lry="438" xml:id="page_12"/>
+			<!--annotazioni pagina 12-->
+			<zone ulx="839" uly="766" lrx="1149" lry="1028" xml:id="note_1_12"  start="nota-1-12"/>
+			<zone ulx="853" uly="1862" lrx="1321" lry="2428" xml:id="note_2_12"  start="nota-2-12"/>
+			<!--COORDINATE PAGINA 13-->
+			<!--25 righe pagina 13-->
+			<zone ulx="3427" uly="225" lrx="5249" lry="379" xml:id="line_26" start="lb_line_26"/>
+			<zone ulx="3469" uly="401" lrx="4037" lry="539" xml:id="line_27" start="lb_line_27"/>
+			<zone ulx="3633" uly="543" lrx="5253" lry="653" xml:id="line_28" start="lb_line_28"/>
+			<zone ulx="3467" uly="695" lrx="5241" lry="791" xml:id="line_29" start="lb_line_29"/>
+			<zone ulx="3497" uly="825" lrx="5235" lry="923" xml:id="line_30" start="lb_line_30"/>
+			<zone ulx="3523" uly="897" lrx="5255" lry="1115" xml:id="line_31" start="lb_line_31"/>
+			<zone ulx="3583" uly="1027" lrx="5267" lry="1181" xml:id="line_32" start="lb_line_32"/>
+			<zone ulx="3535" uly="1157" lrx="5279" lry="1321" xml:id="line_33" start="lb_line_33"/>
+			<zone ulx="3605" uly="1263" lrx="5297" lry="1443" xml:id="line_34" start="lb_line_34"/>
+			<zone ulx="3799" uly="1425" lrx="5193" lry="1591" xml:id="line_35" start="lb_line_35"/>
+			<zone ulx="3985" uly="1561" lrx="5295" lry="1719" xml:id="line_36" start="lb_line_36"/>
+			<zone ulx="3539" uly="1697" lrx="5299" lry="1883" xml:id="line_37" start="lb_line_37"/>
+			<zone ulx="3517" uly="1841" lrx="5305" lry="2009" xml:id="line_38" start="lb_line_38"/>
+			<zone ulx="3517" uly="1951" lrx="5255" lry="2149" xml:id="line_39" start="lb_line_39"/>
+			<zone ulx="4779" uly="2045" lrx="5287" lry="2173" xml:id="line_40" start="lb_line_40"/>
+			<zone ulx="3423" uly="2175" lrx="5313" lry="2337" xml:id="line_41" start="lb_line_41"/>
+			<zone ulx="3563" uly="2319" lrx="5317" lry="2457" xml:id="line_42" start="lb_line_42"/>
+			<zone ulx="3587" uly="2441" lrx="4165" lry="2625" xml:id="line_43" start="lb_line_43"/>
+			<zone ulx="3661" uly="2519" lrx="5243" lry="2717" xml:id="line_44" start="lb_line_44"/>
+			<zone ulx="3593" uly="2713" lrx="5275" lry="2803" xml:id="line_45" start="lb_line_45"/>
+			<zone ulx="3579" uly="2777" lrx="5329" lry="3005" xml:id="line_46" start="lb_line_46"/>
+			<zone ulx="3629" uly="2975" lrx="4027" lry="3077" xml:id="line_47" start="lb_line_47"/>
+			<zone ulx="3297" uly="3085" lrx="5213" lry="3155" xml:id="line_48" start="lb_line_48"/>
+			<zone ulx="3875" uly="3207" lrx="5285" lry="3271" xml:id="line_49" start="lb_line_49"/>
+			<zone ulx="3633" uly="3315" lrx="5283" lry="3415" xml:id="line_50" start="lb_line_50"/>
+			<zone ulx="3567" uly="3453" lrx="5269" lry="3543" xml:id="line_51" start="lb_line_51"/>
+			<zone ulx="3591" uly="3509" lrx="5265" lry="3685" xml:id="line_52" start="lb_line_52"/>
+			<!--ANNOTAZIONI PAGINA 13-->
+			<!--numero 13 alto destra-->
+			<zone ulx="5089" uly="238" lrx="5237" lry="364" xml:id="page_13"/>
+			<!--annotazioni a margine-->
+			<zone ulx="3087" uly="1200" lrx="3487" lry="1488" xml:id="note_1_13"  start="nota-1-13"/>
+			<zone ulx="3139" uly="1654" lrx="3837" lry="1832" xml:id="note_2_13"  start="nota-2-13"/>
+			<!--annotazione indecifrabile-->
+			<zone ulx="3083" uly="2268" lrx="3447" lry="2744" xml:id="note_3_13"  start="nota-3-13"/>
+			</surface>
+	</facsimile>
+	<text>
+		<group>
+			<!--testo francese-->
+			<text type="source" xml:id="txt-fr-1" xml:lang="fr">
+				<body xml:id="txt-fr-1-body">
+					<div>
+						<pb n="1"/>
+						<p n="1">
+							<seg>
+								<lb xml:id="lb_line_1" facs="#line_1"/>
+								méconnaissent absolument. Car encore
+							</seg> 
+							<seg>
+								<lb xml:id="lb_line_2" facs="#line_2" />
+								une l'ois, au <date from="801" to="900">neuvième siècle</date>, ce qui est vrai,
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_3" facs="#line_3" />
+								c'est ceque sentent les Allemands du
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_4" facs="#line_4" /> 
+								<date from="801" to="900">neuvième siècle</date>, <add facs="#note_1_12" xml:id="nota-1-12" place="margin" hand="#FDS"><choice><abbr>absol<am>.</am></abbr><expan>absol<ex>ument</ex></expan></choice> rien d'autre</add>. <del hand="#FDS"> Et </del> Les questions d'origine 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_5" facs="#line_5" />
+								n'ont rien à voir là-dedans. Si 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_6" facs="#line_6" />
+								donc j'introduis un <term xml:id="ref_1_term">radical</term> <mentioned xml:id="ref_1_ment" xml:lang="proto-de"><hi rend="underlined" hand="#FDS">kalbiz</hi></mentioned> -
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_7" facs="#line_7"/>
+								ou <mentioned xml:id="ref_2_ment"><hi rend="underlined" hand="#FDS" xml:lang="proto-de">kalbir</hi></mentioned> - au <date from="801" to="900">neuvième siècle</date>, cela peut
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_8" facs="#line_8"/> 
+								être commode pour <del rend="overstrike" hand="#FDS"><gap reason="illegible" extent="una o due lettere" atLeast="9" atMost="2" unit="chars"/></del>certains détails 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_9" facs="#line_9"/>
+								de l'<choice><abbr>exposit<am>.</am></abbr><expan>exposit<ex>ion</ex></expan></choice>, mais cela <del hand="#FDS" rend="overstrike">ne</del> ne correspond 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_10" facs="#line_10"/>
+								à rien qu'à une réalité évanouie depuis 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_11" facs="#line_11"/>
+								longtemps.
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_12" facs="#line_12"/>
+								Autre <choice><abbr>ex<am>.</am></abbr><expan>ex<ex>emple</ex></expan></choice> : en français de nos jours
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_13" facs="#line_13"/>
+								<mentioned xml:id="ref_3_ment" xml:lang="fr"><hi rend="underlined" hand="#FDS">enfant entier</hi></mentioned>
+							</seg> 
+							<seg>
+								<lb xml:id="lb_line_14" facs="#line_14"/>
+								ne comportent <add facs="note_2_12" xml:id="nota-2-12" place="margin" hand="#FDS">au sentiment des Français</add>, aucune espèce d'analyse, 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_15" facs="#line_15"/>
+								pas plus que n'en comporterait le
+							</seg>
+							<seg> 
+								<lb xml:id="lb_line_16" facs="#line_16"/>
+								mot <mentioned xml:id="ref_4_ment" xml:lang="fr"><hi rend="underlined" hand="#FDS">pour</hi></mentioned> ou le mot <mentioned xml:id="ref_5_ment" xml:lang="fr"><hi rend="underlined" hand="#FDS">moi</hi></mentioned>. 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_17" facs="#line_17"/>
+								Au <date from="001" to="100"><choice><abbr>1ere</abbr><expan>premier</expan></choice> siècle</date>, <mentioned xml:id="ref_6_ment" xml:lang="fr"><hi rend="underlined" hand="#FDS">infans</hi></mentioned>, <mentioned xml:id="ref_7_ment" xml:lang="fr"><hi rend="underlined" hand="#FDS">integer</hi></mentioned> 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_18" facs="#line_18"/>
+								qui <choice><abbr> corresp<am>.</am> </abbr><expan>corresp<ex>ondent</ex></expan></choice><term><choice><abbr> phonetiq<am>.</am></abbr><expan> phonétiq<ex>uement</ex></expan></choice></term>, comportent une
+							</seg> 
+							<seg>
+								<lb xml:id="lb_line_19" facs="#line_19"/>
+								analyse, car <choice><abbr>p<am>.</am></abbr><expan>p<ex>ar</ex></expan></choice> <choice><abbr>ex<am>.</am></abbr><expan>ex<ex>emple</ex></expan></choice> <mentioned xml:id="ref_8_ment" xml:lang="la"><hi rend="underlined" hand="#FDS">in-auditus</hi></mentioned> et 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_20" facs="#line_20"/>
+								<mentioned xml:id="ref_9_ment" xml:lang="la"><hi rend="underlined" hand="#FDS">fāri</hi></mentioned>, <mentioned xml:id="ref_10_ment" xml:lang="la"><hi rend="underlined" hand="#FDS">tango</hi></mentioned>, etc. permettent à la 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_21" facs="#line_21"/>
+								langue de décomposer ainsi : <mentioned xml:id="ref_11_ment" xml:lang="la"><hi rend="underlined" hand="#FDS">in</hi> - <hi rend="underlined" hand="#FDS" xml:lang="la">fans</hi></mentioned>,
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_22" facs="#line_22"/> 
+								<mentioned xml:id="ref_12_ment"><hi rend="underlined" hand="#FDS" xml:lang="fr">in</hi> - <hi rend="underlined" hand="#FDS" xml:lang="fr">teger</hi></mentioned>.
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_23" facs="#line_23"/> 
+								Si je me mets à couper: 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_24" facs="#line_24"/>
+								<mentioned xml:id="ref_13_ment"><hi rend="underlined" hand="#FDS" xml:lang="fr">en-fant</hi></mentioned>, <mentioned xml:id="ref_14_ment"><hi rend="underlined" hand="#FDS" xml:lang="fr">en-tier</hi></mentioned>, 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_25" facs="#line_25"/>
+								je fais la même <choice><orig>xose</orig><reg>chose</reg></choice> que tout à l'heure :
+							</seg>
+						</p>
+					</div>
+					<div>
+						<pb n="2"/>
+						<p n="2">
+							<seg>
+								<lb xml:id="lb_line_26" facs="#line_26"/>
+								de la <term xml:id="ref_3_term"><choice><abbr>morfol<am>.</am> </abbr><expan>morphol<ex>ogie</ex></expan></choice></term> latine sur des formes 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_27" facs="#line_27"/>
+								françaises.
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_28" facs="#line_28"/> 
+								Eh bien, c'est cette <term xml:id="ref_4_term">morphologie-là</term> 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_29" facs="#line_29"/>
+								qui est la base de <choice><abbr>tts</abbr><expan>t<ex>ou</ex>t<ex>e</ex>s</expan></choice> les <term xml:id="ref_5_term">grammaires</term> 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_30" facs="#line_30"/>
+								gréco-latines. C'est cette <term xml:id="ref_6_term">morphologie-là</term> 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_31" facs="#line_31"/>
+								que <choice><abbr>ns</abbr><expan>n<ex>ou</ex>s</expan></choice> allons faire nous aussi, dans
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_32" facs="#line_32"/>
+								la moitié des cas. Seulement, <choice><abbr>vs</abbr><expan>v<ex>ou</ex>s</expan></choice> aurez
+							</seg> 
+							<seg>
+								<lb xml:id="lb_line_33" facs="#line_33"/>
+								été dûment avertis, et mis en état, <add facs="note_1_13" xml:id="nota-1-13" place="margin" hand="#FDS">je l'espère</add>, de 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_34" facs="#line_34"/>
+								<choice><abbr>vs</abbr><expan>v<ex>ou</ex>s</expan></choice> rendre compte de sa <choice><abbr>veritab<am>.</am></abbr><expan>véritab<ex>le</ex></expan></choice> valeur. 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_35" facs="#line_35"/>
+								<choice><abbr>Ex<am>.</am></abbr><expan>Ex<ex>emple</ex></expan></choice> : en grec, nous diviserons : 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_36" facs="#line_36"/>
+								<mentioned xml:id="ref_15_ment" xml:lang="gr">ἵππο-ς</mentioned>, <mentioned xml:id="ref_16_ment" xml:lang="gr">ἵππο-ν</mentioned>, etc. <add facs="note_2_13" xml:id="nota-2-13" place="margin" hand="#FDS"><mentioned xml:id="ref_17_ment" xml:lang="gr">ἵππο</mentioned>-<term xml:id="ref_7_term">thème</term></add>. 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_37" facs="#line_37"/>
+								Il est à peu près certain que <del rend="overstike" hand="#FDS">le</del> si <mentioned xml:id="ref_18_ment" xml:lang="gr">ἵππος</mentioned>, 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_38" facs="#line_38"/>
+								au <choice><abbr>sentt</abbr><expan>sent<ex>imen</ex>t</expan></choice> des Grecs, se décompos<damage>ai</damage>t d'une 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_39" facs="#line_39"/>
+								façon quelconque, c'était en <mentioned xml:id="ref_19_ment" xml:lang="gr">ἵππ-ος</mentioned>, 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_40" facs="#line_40"/>
+								<mentioned xml:id="ref_20_ment">ἵππ-ον</mentioned>.
+							</seg>
+							<add place="margin" xml:id="nota-3-13" facs="note_3_13"><gap reason="illegible" unit="word" quantity="6"/></add>
+							<seg>
+								<lb xml:id="lb_line_41" facs="#line_41"/>
+								La <hi rend="uppercase">p</hi>reuve? Comme toujours, les formations 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_42" facs="#line_42"/>
+								nouvelles ou analogiques : <mentioned xml:id="ref_21_ment" xml:lang="gr">γραμμάτοις</mentioned>, 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_43" facs="#line_43"/>
+								<mentioned xml:id="ref_22_ment" xml:lang="gr">ῥήτορον</mentioned>?
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_44" facs="#line_44"/>
+								La réalité que représente la  
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_45" facs="#line_45"/>
+								division <mentioned xml:id="ref_23_ment" xml:lang="gr">ἵππο-ς</mentioned>, c'est une réalité 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_46" facs="#line_46"/>
+								<choice><abbr>indo-europ<am>.</am></abbr><expan>indo-europ<ex>éenne</ex></expan></choice> figurée sur une forme 
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_47" facs="#line_47"/>
+								grecque.
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_48" facs="#line_48"/>
+								Je rappelle : <term xml:id="Rlt"><hi rend="underlined" hand="#FDS">Réalité</hi></term> = <gloss>fait présent à la</gloss>
+							</seg>
+							<seg> 
+								<lb xml:id="lb_line_49" facs="#line_49"/>
+								<gloss>conscience des sujets parlants.</gloss>
+							</seg>
+							<seg> 
+								<lb xml:id="lb_line_50" facs="#line_50"/>
+								Les <choice><abbr>Indo-Europ<am>.</am></abbr><expan>Indo-Europ<ex>éens</ex></expan></choice>, ou au moins les
+							</seg>
+							<seg>
+								<lb xml:id="lb_line_51" facs="#line_51"/> 
+								plus anciens <choice><abbr>Indo-Europ<am>.</am></abbr><expan>Indo-Europ<ex>éens</ex></expan></choice>, ont divisé
+							</seg> 
+							<seg>
+								<lb xml:id="lb_line_52" facs="#line_52"/>
+								<mentioned xml:id="ref_24_ment"><hi rend="underlined" hand="#FDS" xml:lang="proto-ita">ekwo-s</hi></mentioned>, <mentioned xml:id="ref_25_ment"><hi rend="underlined" hand="#FDS" xml:lang="proto-ita">ekwo-m</hi></mentioned>. Quand nous
+							</seg>
+						</p>
+					</div>
+				</body>
+			</text>
+			<!--testo italiano-->
+			<text type="translation" xml:id="txt-ita-1" xml:lang="it">
+				<body xml:id="txt-ita-1-body" corresp="#txt-fr-1-body">
+					<div>
+						<pb n="1"/>
+						<p n="3">
+							<seg>
+								<lb/>
+								misconoscono completamente. Perché ancora 
+							</seg>
+							<seg>
+								<lb/>
+								una volta, nel nono secolo, ciò che è vero
+							</seg>
+							<seg>
+								<lb/>
+								è ciò che sentono i tedeschi del
+							</seg>
+							<seg>
+								<lb/>
+								nono secolo, e assolutamente nient’altro. Le questioni sull’origine 
+							</seg>
+							<seg>
+								<lb/>
+								non ci hanno nulla a che vedere, là. Se
+							</seg>
+							<seg>
+								<lb/>
+								dunque io introduco un <ref target="#ref_1_term" type="term">radicale</ref>, <ref target="#ref_1_ment" type="mentioned">kalbiz</ref> -o , 
+							</seg>
+							<seg>
+								<lb/>
+								<ref target="#ref_2_ment" type="mentioned">kalbir</ref> - nel nono secolo, ciò potrà 
+							</seg>
+							<seg>
+								<lb/>
+								essere comodo per alcuni dettagli 
+							</seg>
+							<seg>
+								<lb/>
+								dell’esposizione, ma non corrisponde 
+							</seg>
+							<seg>
+								<lb/>
+								a niente se non a una realtà svanita da 
+							</seg>
+							<seg>
+								<lb/>
+								molto tempo.
+							</seg>
+							<seg>
+								<lb/>
+								Altro esempio. Nel francese d’oggigiorno,
+							</seg>
+							<seg>
+								<lb/>
+								<ref target="#ref_3_ment" type="mentioned">enfant, entier</ref>
+							</seg> 
+							<seg>
+								<lb/>
+								non comportano, nel sentimento dei francesi, alcuna specie di analisi, 
+							</seg>
+							<seg>
+								<lb/>
+								non più di quanto la com-porterebbero la 
+							</seg>
+							<seg>
+								<lb/>
+								parola <ref target="#ref_4_ment" type="mentioned">pour</ref> o la parola <ref target="#ref_5_ment" type="mentioned">moi</ref>. 
+							</seg>
+							<seg>
+								<lb/>
+								Nel primo secolo, <ref target="#ref_6_ment" type="mentioned">infans</ref>, <ref target="#ref_7_ment" type="mentioned">integer</ref>,
+							</seg>
+							<seg>
+								<lb/> 
+								che corrispondono <ref target="#ref_2_term" type="term">foneticamente</ref>, comportano un’
+							</seg>
+							<seg>
+								<lb/>
+								analisi, perché, per esempio <ref target="#ref_8_ment" type="mentioned">in-auditus</ref> e 
+							</seg>
+							<seg>
+								<lb/>
+								<ref target="#ref_9_ment" type="mentioned">fāri</ref>, <ref target="#ref_10_ment" type="mentioned">tango</ref> ecc. permettono alla 
+							</seg>
+							<seg>
+								<lb/>
+								lingua di scomporre così: <ref target="#ref_11_ment" type="mentioned">in-fans</ref>, 
+							</seg>
+							<seg>
+								<lb/>
+								<ref target="#ref_12_ment" type="mentioned">in-teger</ref>. 
+							</seg>
+							<seg>
+								<lb/>
+								Se mi metto a tagliare: 
+							</seg>
+							<seg>
+								<lb/>
+								<ref target="#ref_13_ment" type="mentioned">en-fant</ref>, <ref target="#ref_14_ment" type="mentioned">en-tier</ref>, 
+							</seg>
+							<seg>
+								<lb/>
+								faccio la stessa cosa di prima.
+							</seg>
+						</p>
+					</div>
+					<div>
+						<pb n="4"/>
+						<p n="4">
+							<seg>
+								<lb/>
+								<ref target="#ref_3_term" type="term">Morfologia</ref> latina su forme 
+							</seg>
+							<seg>
+								<lb/>
+								francesi. 
+							</seg>
+							<seg>
+								<lb/>
+								Ebbene, è quella <ref target="#ref_4_term" type="term">morfologia</ref> lì 
+							</seg>
+							<seg>
+								<lb/>
+								che è alla basedi tutte le <ref target="#ref_5_term" type="term">grammatiche</ref> 
+							</seg>
+							<seg>
+								<lb/>
+								greco-latine. È questa <ref target="#ref_6_term" type="term">morfologia</ref> 
+							</seg>
+							<seg>
+								<lb/>
+								che anche noi faremo in una 
+							</seg>
+							<seg>
+								<lb/>
+								buona metà dei casi. Soltanto, voi sarete 
+							</seg>
+							<seg>
+								<lb/>
+								stati debitamente avvertiti e misi in condizione, spero, di 
+							</seg>
+							<seg>
+								<lb/>
+								rendervi conto del suo vero valore. 
+							</seg>
+							<seg>
+								<lb/>
+								Esempio. In greco, noi divideremo: 
+							</seg>
+							<seg>
+								<lb/>
+								<ref target="#ref_15_ment" type="mentioned">ἵππο-ς</ref>, <ref target="#ref_16_ment" type="mentioned">ἵππο-ν</ref> (<ref target="#ref_17_ment" type="mentioned">ἵππο-</ref>: <ref target = "#ref_7_term" type="term">tema</ref>)
+							</seg>
+							<seg>
+								<lb/>
+								È praticamente certo che se <ref target="#ref_18_ment" type="mentioned">ἵππος</ref>, 
+							</seg>
+							<seg>
+								<lb/>
+								nel sentimento dei greci, si scomponeva 
+							</seg>
+							<seg>
+								<lb/>
+								in qualche modo, questo era in <ref target="#ref_19_ment" type="mentioned">ἵππ-ος</ref>,
+							</seg>
+							<seg>
+								<lb/> 
+								<ref target="#ref_20_ment" type="mentioned">ἵππ-ον</ref>. 
+							</seg>
+							<seg>
+								<lb/>
+								La prova? Come sempre, le formazioni 
+							</seg>
+							<seg>
+								<lb/>
+								analogiche: <ref target="#ref_21_ment" type="mentioned">γραμμάτοις</ref>, 
+							</seg>
+							<seg>
+								<lb/>
+								<ref target="#ref_22_ment" type="mentioned">ῥήτορον</ref>? 
+							</seg>
+							<seg>
+								<lb/>
+								La realtà che rappresenta la 
+							</seg>
+							<seg>
+								<lb/>
+								divisione <ref target="#ref_23_ment" type="mentioned">ἵππο-ς</ref>, è una realtà 
+							</seg>
+							<seg>
+								<lb/>
+								indoeuropea proiettata su una forma 
+							</seg>
+							<seg>
+								<lb/>
+								greca.
+							</seg>
+							<seg>
+								<lb/> 
+								Ricordo: <ref target="#Rlt" type="term">realtà</ref> = fatto presente alla 
+							</seg>
+							<seg>
+								<lb/>
+								coscienza dei soggetti parlanti.
+							</seg>
+							<seg>
+								<lb/> 
+								Gli indoeuropei, o almeno gli
+							</seg>
+							<seg>
+								<lb/> 
+								indoeuropei più antichi, hanno diviso 
+							</seg>
+							<seg>
+								<lb/>
+								<ref target="#ref_24_ment" type="mentioned">ekwo-s</ref>, <ref target="#ref_25_ment" type="mentioned">ekwo-m</ref>. Quando noi
+							</seg>
+						</p>
+					</div>
+				</body>
+			</text>
+		</group>
+	</text>
+</TEI>
