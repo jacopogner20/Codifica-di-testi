@@ -16,13 +16,13 @@
                 <!--TRADUZIONE DI-->
                 <respStmt xml:id="TRADUZIONE">
                     <resp>Traduzione di</resp>
-                    <name>Emanuele Fadda</name>
+                    <name xml:id="EF">Emanuele Fadda</name>
                 </respStmt>
                 <!--CODIFICA A CURA DI-->
                 <respStmt xml:id="CODIFICA">
                     <resp>Codifica a cura di</resp>
-                    <name n="1">Alessio Siragusa</name>
-                    <name n="2">Jacopo Gneri</name>
+                    <name n="1" xml:id="AS">Alessio Siragusa</name>
+                    <name n="2" xml:id="JG">Jacopo Gneri</name>
                 </respStmt>
             </titleStmt>
             <!--EDIZIONE-->
