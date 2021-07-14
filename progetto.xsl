@@ -50,10 +50,12 @@
 				<br/>
 				<!--testo originale francese-->
 				<div id="testoFra" class="provaTesti">
+					<h2>Testo originale</h2>
 					<xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:p"/>
 				</div>
 				<!--testo tradotto in italiano-->
 				<div id="testoIta" class="provaTesti">
+					<h2>Traduzione in italiano</h2>
 					<xsl:apply-templates select="//tei:text[@type='translation']/tei:body/tei:div/tei:p"/>
 				</div>
 				<br/>
@@ -66,13 +68,6 @@
 			</footer>
 		</body>
 	</html>
-</xsl:template>
-<!--template per il testo francese-->
-<xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:p[@n='1']">
-	<div>
-		<h2>Testo originale</h2>
-		<xsl:apply-templates/>
-	</div>
 </xsl:template>
 <!-- template per output in riga-->
 <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:p/tei:seg/tei:lb">
@@ -115,19 +110,10 @@
   <span class="cancellature" style="text-decoration: line-through">
   <xsl:value-of select="."/></span>
 </xsl:template>
-
-<!--template per il testo italiano-->
-<xsl:template match="tei:TEI/tei:text/tei:group/tei:text[@type='translation']/tei:body/tei:div/tei:p[@n='3']">
-	<div>
-		<h2>Testo italiano</h2>
-		<xsl:apply-templates/>
-	</div>
-</xsl:template>
 <!-- template che stampa in righe il testo tradotto in italiano -->
 <xsl:template match="//tei:text[@type='translation']/tei:body/tei:div/tei:p/tei:seg/tei:lb">
 	<br />
 </xsl:template>
-
 <!--termine tecnico italiano-->
 <xsl:template match="//tei:ref[@type = 'term']">
   <span class="TermFR ParoleIta" style="border-bottom:2px solid red">
