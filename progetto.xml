@@ -379,11 +379,11 @@
 							</seg>
 							<seg>
 								<lb xml:id="lb_line_48" facs="#line_48"/>
-								Je rappelle : <term xml:id="Rlt"><hi rend="underlined" hand="#FDS">Réalité</hi></term> = <gloss>fait présent à la</gloss>
+								Je rappelle : <term xml:id="Rlt"><hi rend="underlined" hand="#FDS">Réalité</hi></term> = <gloss target="#Rlt">fait présent à la</gloss>
 							</seg>
 							<seg> 
 								<lb xml:id="lb_line_49" facs="#line_49"/>
-								<gloss>conscience des sujets parlants.</gloss>
+								<gloss target="#Rlt">conscience des sujets parlants.</gloss>
 							</seg>
 							<seg> 
 								<lb xml:id="lb_line_50" facs="#line_50"/>
